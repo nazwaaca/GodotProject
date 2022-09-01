@@ -1,2 +1,2 @@
 # GodotProject
-Progress pembuatan 2D dengan Godot
+Progress pembuatan animasi 2D dengan Godot
