@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bensound-trueperfection.mp3-c366fdccd1202819cfe0b385cf94f1f9.mp3str"
+
+[deps]
+
+source_file="res://Assets/bensound-trueperfection.mp3"
+dest_files=[ "res://.import/bensound-trueperfection.mp3-c366fdccd1202819cfe0b385cf94f1f9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
