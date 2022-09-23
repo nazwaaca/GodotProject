@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://SCRIPT/call_overlapping.gd" type="Script" id=1]
+[ext_resource path="res://Assets/limbo_font__by_alex484000-d5dthys.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Assets/icons8-exit-67.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 35
+font_data = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Label6" type="Label" parent="."]
+margin_left = 223.0
+margin_top = 521.0
+margin_right = 816.0
+margin_bottom = 596.0
+custom_fonts/font = SubResource( 1 )
+text = "Karya 2d lingkaran : gambar batik kawung"
+align = 1
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 33.0
+margin_top = 24.0
+margin_right = 45.0
+margin_bottom = 44.0
+rect_scale = Vector2( 6.07547, 3.37856 )
+
+[node name="Icons8-exit-67" type="Sprite" parent="Button"]
+position = Vector2( 3.62112, 7.99157 )
+scale = Vector2( 0.164596, 0.295984 )
+texture = ExtResource( 3 )
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
